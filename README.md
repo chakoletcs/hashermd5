@@ -1,5 +1,5 @@
-# hashermd5
-Assignment23/09
+# hashermd5 Assignment23/09 shantanu
+
 1. The pylint score for the Class declaration part
     ![alt text](https://github.com/chakoletcs/hashermd5/blob/master/pylintscore1.PNG?raw=true)
 
