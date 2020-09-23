@@ -42,6 +42,6 @@ class Hasher:
         elif isinstance(self.tobehashed,tuple):
             for i in self.tobehashed:
                 newlist.append(hashlib.md5(i.encode()).hexdigest())
-            return newlist
+            return tuple(newlist)
         else:
             raise TypeError("Out of the recognised types")
